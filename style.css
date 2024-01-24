@@ -1,0 +1,197 @@
+body{
+    background: #1E1E1E;
+}
+nav {
+    color: #1E1E1E;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-right: 116px;
+    margin-top: 48px;
+}
+li {
+    float: right;
+    margin-left: 56px;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: #1E1E1E;
+}
+nav a:hover {
+    color: #F6B17A;
+}
+section{
+    margin-bottom: 200px;
+}
+.home .home-bg {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: -1;
+    background: #7077A1;
+    width: 800px;
+    height: 641px;
+}
+.bg-img {
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    background: #2D3250;
+    width: 680px;
+    height: 408px;
+    z-index: -1;
+}
+.home-img {
+    width: 51%;
+}
+.home-img img{
+    position: flex;
+    width: 412px;
+    margin-left: 100px;
+    opacity: 0.2;
+}
+.home {
+    display: flex;
+    align-items: center;
+}
+.home-content h3{
+    color: #1E1E1E;
+    font-family: "Montagu Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+.home-content h2{
+    color: #1E1E1E;
+    font-family: "Montagu Slab";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+.home-content p{
+    color: #1E1E1E;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 600px;
+}
+.topic {
+    margin-left: 116px;
+    margin-right: 116px;
+    color: #F6B17A;
+    font-family: "Montagu Slab";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 88px;
+}
+.list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 116px;
+    margin-right: 116px;
+    justify-content: space-between;
+}
+.isi-list{
+    width: 30%;
+}
+h4 {
+    color: #FFF;
+    font-family: "Montagu Slab";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.date{
+    color: #FFF;
+    font-family: Verdana;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+.desc-list{
+    color: #424769;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+.tengah{
+    text-align: center;
+}
+.desc{
+    color: #424769;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    
+    line-height: normal;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.box {
+    border-top: 4px solid #2D3250;
+    border-bottom: 4px solid #2D3250;
+    opacity: 0.2;
+    width: 1340px;
+    height: 190px;
+    margin-top: 100px;
+}
+.box-list{
+    margin-top: 55px;
+}
+.project-list {
+    position: relative;
+    display: flex;
+    margin-left: 350px;
+    margin-right: 400px;
+    justify-content: space-between;
+}
+.isi-list img:hover{
+    transform: scale(1.1);
+}
+.isi-list img{
+    width: 300px;
+    border-radius: 5px;
+}
+.edu-list{
+    width: 40%;
+}
+.mycontact {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.mycontact img {
+    width: 50px;
+    height: 50px;
+}
+.mycontact a{
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+}
+.mycontact a:hover {
+    transform: scale(1.3);
+}
